@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "douyin-auto-reply"
+version = "1.0.0"
+description = "抖音评论自动监测与回复工具"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "playwright>=1.40.0",
+    "playwright-stealth>=2.0.0",
+]
+
+[project.scripts]
+douyin-auto-reply = "douyin_client:main"
