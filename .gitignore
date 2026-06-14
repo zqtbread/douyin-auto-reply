@@ -1,0 +1,13 @@
+# 敏感文件 — 永远不要提交
+cookies.json
+config.json
+state.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# 临时文件
+test_snippet.txt
+*.log

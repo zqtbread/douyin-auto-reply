@@ -1,0 +1,13 @@
+{
+  "profile_url": "",
+  "user_id": "",
+  "nickname": "",
+  "reply_style": "请根据你的风格填写，例如：真诚、友好、有信息量",
+  "max_videos_to_check": 50,
+  "max_comments_per_video": 50,
+  "auto_reply_enabled": false,
+  "check_interval_minutes": 60,
+  "replied_comments": {},
+  "reply_interval_min": 20,
+  "reply_interval_max": 35
+}
